@@ -1,0 +1,36 @@
+@media screen and (max-width: 1300px) {
+    .first{
+        flex-wrap: wrap;
+    }
+
+    .footer{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    nav img {
+        width: 84px;
+        position: relative;
+        z-index: 10;
+    }    
+}
+
+@media screen and (max-width: 450px){
+    .hero-sm-buttons{
+        width: 106px;
+    }
+
+    .btn-red-sm{
+        width: 50px;
+    }
+
+    .one{
+        font-size: small;
+    }
+    .two{
+        font-size: 20px;
+    }
+    .small{
+        font-size: small;
+    }
+}
