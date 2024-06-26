@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", sans-serif;
+}
+
+/* .header h1{
+    font-weight: bolder;
+} */
+
+nav {
+    background-color: black;
+    color: white;
+    padding: 10px;
+}
+
+nav ul li {
+    display: inline-block;
+    position: relative;
+}
+
+nav ul li a {
+    cursor: pointer;
+    text-decoration: none;
+    color: white;
+    padding-right: 20px;
+}
+
+nav ul li a:hover {
+    color: blue;
+}
+
+.dropdown {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: black;
+    display: none;
+}
+
+.dropdown li {
+    display: block;
+}
+
+.dropdown li a {
+    padding: 10px;
+    border-bottom: 1px solid #333;
+}
+
+.dropdown li a:hover {
+    color: blue;
+    z-index: 10;
+}
+
+nav ul li:hover >.dropdown {
+    display: block;
+    z-index: 10;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    background-image: url(https://images.pexels.com/photos/1266810/pexels-photo-1266810.jpeg?auto=compress&cs=tinysrgb&h=627&fit=crop&w=1200);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: max(1200px, 100vw);
+    height: 70vh;
+    position: relative;
+    opacity: 0.8;
+}
+
+main p{
+    font-weight: bolder;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    color: white;
+    padding: 20px;
+}
