@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gmail Clone</title>
+    <style>
+        *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    margin-right: 20px;
+}
+
+.search-bar {
+    display: flex;
+    align-items: center;
+    margin-right: 20px;
+}
+
+.search-bar input[type="search"] {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    width: 200px;
+}
+
+.search-bar button {
+    background-color: #4CAF50;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.nav-links {
+    display: flex;
+    align-items: center;
+}
+
+.nav-links a {
+    color: #fff;
+    text-decoration: none;
+    margin-right: 20px;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+}
+
+.inbox-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.inbox-item {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+}
+
+.inbox-item input[type="checkbox"] {
+    margin-right: 10px;
+}
+
+.inbox-item span {
+    margin-right: 20px;
+}
+
+.compose-button {
+    margin-top: 20px;
+}
+
+.compose-button button {
+    background-color: #4CAF50;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+    clear: both;
+}
+    </style>
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="https://www.gstatic.com/images/branding/product/1x/gmail_2020q4_48dp.png" alt="Gmail Logo">
+        </div>
+        <div class="search-bar">
+            <input type="search" placeholder="Search mail">
+            <button>Search</button>
+        </div>
+
+        
+        <div class="nav-links">
+            <a href="#">Inbox</a>
+            <a href="#">Starred</a>
+            <a href="#">Snoozed</a>
+            <a href="#">Sent</a>
+            <a href="#">Drafts</a>
+            <a href="#">More</a>
+        </div>
+    </header>
+    <main>
+        <div class="gmail">
+            <h1>Gmail Clone</h1><br>    
+        </div>
+
+        <div class="inbox-list">
+            <div class="inbox-item">
+                <input type="checkbox">
+                <span>From: John Doe</span>
+                <span>Subject: Hello World!</span>
+                <span>12:45 PM</span>
+            </div>
+            <div class="inbox-item">
+                <input type="checkbox">
+                <span>From: John Doe</span>
+                <span>Subject: Hello World!</span>
+                <span>12:45 PM</span>
+            </div>
+            <div class="inbox-item">
+                <input type="checkbox">
+                <span>From: John Doe</span>
+                <span>Subject: Hello World!</span>
+                <span>12:45 PM</span>
+            </div>
+            <div class="inbox-item">
+                <input type="checkbox">
+                <span>From: John Doe</span>
+                <span>Subject: Hello World!</span>
+                <span>12:45 PM</span>
+            </div>
+            <div class="inbox-item">
+                <input type="checkbox">
+                <span>From: John Doe</span>
+                <span>Subject: Hello World!</span>
+                <span>12:45 PM</span>
+            </div>
+            <div class="inbox-item">
+                <input type="checkbox">
+                <span>From: John Doe</span>
+                <span>Subject: Hello World!</span>
+                <span>12:45 PM</span>
+            </div>
+            <div class="inbox-item">
+                <input type="checkbox">
+                <span>From: John Doe</span>
+                <span>Subject: Hello World!</span>
+                <span>12:45 PM</span>
+            </div>
+            <div class="inbox-item">
+                <input type="checkbox">
+                <span>From: John Doe</span>
+                <span>Subject: Hello World!</span>
+                <span>12:45 PM</span>
+            </div>
+            <div class="inbox-item">
+                <input type="checkbox">
+                <span>From: John Doe</span>
+                <span>Subject: Hello World!</span>
+                <span>12:45 PM</span>
+            </div>
+        </div>
+        <div class="inbox-item">
+            <input type="checkbox">
+            <span>From: John Doe</span>
+            <span>Subject: Hello World!</span>
+            <span>12:45 PM</span>
+        </div>
+        <div class="compose-button">
+            <button>Compose</button>
+        </div>
+    </main>
+    <footer>
+        <p>&copy; 2023 Gmail Clone</p>
+    </footer>
+</body>
+</html>
