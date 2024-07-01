@@ -1,0 +1,65 @@
+<style>
+  table {
+    border-collapse: collapse;
+  }
+
+  th,
+  td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: center;
+  }
+
+  th[colspan="2"] {
+    background-color: #f0f0f0;
+  }
+
+  .result-cell {
+    font-weight: bold;
+  }
+</style>
+
+<table>
+  <tr>
+    <th colspan="2">Subjects</th>
+  </tr>
+  <tr>
+    <th>Maths</th>
+    <td><input type="number" id="maths-score" /></td>
+  </tr>
+  <tr>
+    <th>Chemistry</th>
+    <td><input type="number" id="chemistry-score" /></td>
+  </tr>
+  <tr>
+    <th>Physics</th>
+    <td><input type="number" id="physics-score" /></td>
+  </tr>
+  <tr>
+    <td colspan="2">
+      <button onclick="calculateResult()">Calculate Result</button>
+    </td>
+  </tr>
+  <tr>
+    <th>Total</th>
+    <td class="result-cell" id="total-score"></td>
+  </tr>
+  <tr>
+    <th>Percentage</th>
+    <td class="result-cell" id="percentage-score"></td>
+  </tr>
+</table>
+
+<script>
+  function calculateResult() {
+    const mathsScore = parseInt(document.getElementById("maths-score").value);
+    const chemistryScore = parseInt(document.getElementById("chemistry-score").value);
+    const physicsScore = parseInt(document.getElementById("physics-score").value);
+
+    const totalScore = mathsScore + chemistryScore + physicsScore;
+    const percentageScore = (totalScore / 300) * 100;
+
+    document.getElementById("total-score").innerHTML = totalScore;
+    document.getElementById("percentage-score").innerHTML = percentageScore.toFixed(2) + "%";
+  }
+</script>
