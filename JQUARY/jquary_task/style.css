@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+nav{
+    background-color: black;
+}
+
+
+ul{
+    display: flex;
+    list-style: none;
+    padding: 20px;
+}
+
+ul li a{
+    text-decoration: none;
+    color: white;
+    padding: 10px;   
+}
+
+.content{
+    background-color: cadetblue;
+    padding: 10px;
+    text-align: center;
+}
+
+img{
+    width: 100vw;
+    height: 80vh;
+    background-size: cover;
+    background-position: center;
+    display: none;
+}
+
+.news-content{
+    display: none;
+}
