@@ -11,7 +11,8 @@ body {
 }
 
 .navbar{
-    background-image: linear-gradient(to bottom, rgba(32, 6, 6, 0.808), #302c2c);
+    background-color: black;
+    opacity: 0.9;
 }
 
 .logo{
@@ -108,4 +109,30 @@ footer {
         width: 55%;
     }
     
+}
+
+
+
+
+
+.main-2{
+    background-color: black;
+    opacity: 0.8;
+}
+
+.login-2 a button{
+    text-decoration: underline;
+}
+
+.card-content{
+    height: 90%;
+    width: 30%;
+    margin: auto;
+}
+
+.footer{
+    cursor: pointer;
+    text-decoration: underline;
+    color: white;
+    font-size: small;
 }
