@@ -1,11 +1,4 @@
-// const Contact = () => {
-//     return <h1 className="p-2">Contact Me</h1>;
-//   };
-  
-//   export default Contact;
 
-
-// Contact.js
 import React, { useState } from 'react';
 
 const Contact = () => {
@@ -16,7 +9,6 @@ const Contact = () => {
 
   const handleSubmit = (event) => {
     event.preventDefault();
-    // Add form submission logic here (e.g. send email, make API request, etc.)
     
     setSubmitted(true);
   };

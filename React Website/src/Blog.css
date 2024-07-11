@@ -1,0 +1,21 @@
+.blog-container {
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 20px;
+    background-color: rgb(71 85 105);
+    border: 1px solid rgb(71 85 105);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  }
+  
+  .blog-post {
+    margin-bottom: 20px;
+  }
+  
+  .blog-post a {
+    text-decoration: none;
+    color: #7897b3;
+  }
+  
+  .blog-post a:hover {
+    text-decoration: underline;
+  }

@@ -1,8 +1,4 @@
-// const About = () => {
-//     return <h1 className="p-2">About</h1>;
-//   };
-  
-//   export default About;
+
 
 
 import React from 'react';

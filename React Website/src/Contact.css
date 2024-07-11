@@ -28,7 +28,7 @@
   }
   
   button[type="submit"] {
-    background-color: #4CAF50;
+    background-color: rgb(30, 58, 99);
     color: #fff;
     padding: 10px 20px;
     border: none;
@@ -37,11 +37,11 @@
   }
   
   button[type="submit"]:hover {
-    background-color: #3e8e41;
+    background-color: rgb(46, 69, 104);
   }
   
   .success-message {
-    color: #4CAF50;
+    color: black;
     font-size: 18px;
     font-weight: bold;
     margin-top: 20px;
