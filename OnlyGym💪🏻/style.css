@@ -1,0 +1,103 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+html,body{
+    height: 100%;
+    width: 100%;
+}
+
+.main-container{
+    height: 100%;
+    width: 100%;
+    color: white;
+}
+
+.logo{
+    color: white;
+}
+
+.navbar{
+    background-color: rgba(0, 0, 0, 0.9);
+    font-size: larger;
+    height: 10%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+.nav-links ul{
+    display: flex;
+    text-decoration: none;
+}
+
+.nav-links ul{
+    list-style: none;
+}
+
+.nav-links ul li a{
+    text-decoration: none;
+    color: white;
+    padding: 0 10px;
+
+}
+
+.container{
+    height: 90%;
+    width: 100%;    
+    background-color: black;
+    opacity: 0.95;
+}
+
+.day1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 25%;
+    width: 100%;
+}
+
+.day1 h1{
+    /* padding: 10px; */
+    margin: 10px;
+    font-size:larger;
+}
+
+.card{
+    font-size: large;
+    display: flex;
+    width: 50%;
+    height: fit-content;
+    justify-content: center;
+    align-items: center;
+    padding: 12px;
+    margin: 5px;
+    cursor: pointer;
+}
+
+.video{
+    /* position: relative; */
+    width: 25%;
+    height: 100%;
+}
+
+.video video{
+    border-radius: 5px;
+    width: 100%;
+}
+
+.text{
+    padding-left: 10px;
+    width: 75%;
+    height: 100%;
+}
+
+.text h1{
+    padding: 2px 0;
+}
